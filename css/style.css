@@ -25,6 +25,15 @@
 
 
 }
+.header-ul{
+	display: flex;
+
+}
+
+.header-li{
+	display: flex;
+	margin-right: 10px;
+}
           
 .burgeer-menu {
   display: inline-block;
