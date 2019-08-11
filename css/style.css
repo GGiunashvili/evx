@@ -13,6 +13,18 @@
     top: 20px;
     left: 5%;
 }
+.hed{
+	height: 80px;
+	    z-index: 150;
+	 position: fixed;
+    top: 20px;
+    right: 5%;
+    color: #DD97E8;
+    font-size: 20px;
+    
+
+
+}
           
 .burgeer-menu {
   display: inline-block;
