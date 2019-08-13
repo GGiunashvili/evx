@@ -18,7 +18,14 @@ section.header .anonima {
     display: flex;
     flex-direction: row;
 }
-
+.logoA{
+    height: 40px;
+    margin: 20px;
+}
+.logoB{
+    height: 40px;
+    margin: 20px;
+}
 section.header .anonima span {
     flex: 1;
 }
@@ -30,6 +37,8 @@ section.header .contact {
 
 section.header .contact  {
     text-align: center;
+    
+    
     
 }
 
