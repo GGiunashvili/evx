@@ -13,9 +13,7 @@
     top: 20px;
     left: 5%;
 }
-span{
-color:grey;
-}
+
 .hed{
 	height: 80px;
 	    z-index: 150;
@@ -145,6 +143,7 @@ color:grey;
 .li{
 	font-size: 20px;
 	font-family: "DejaVu Sans", sans-serif;
+	color:grey;
 
 
 }
