@@ -33,6 +33,7 @@
 .header-li{
 	display: flex;
 	margin-right: 10px;
+	font-family: "DejaVu Sans", sans-serif;
 }
           
 .burgeer-menu {
