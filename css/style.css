@@ -158,6 +158,8 @@
     background: #DD97E8;
     width: 300px;
     font-size: 20px;
+    font-family: "DejaVu Sans", sans-serif;
+
 }
 
 @media screen and (max-width: 992px){
