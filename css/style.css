@@ -36,12 +36,13 @@
 }
           
 .burgeer-menu {
-  display: inline-block;
+  display: none;
   cursor: pointer;
   z-index: 102;
   position: fixed;
     right: 5%;
 	top: 20px;
+	
 }
 
 .menu{
@@ -139,6 +140,8 @@
 }
 .li{
 	font-size: 20px;
+	font-family: "DejaVu Sans", sans-serif;
+
 
 }
 .list{
@@ -156,6 +159,8 @@
     background: #DD97E8;
     width: 300px;
     font-size: 20px;
+    font-family: "DejaVu Sans", sans-serif;
+
 }
 
 @media screen and (max-width: 992px){
