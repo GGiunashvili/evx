@@ -1,0 +1,55 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: purple;
+    display: flex;
+    flex-direction: column;
+}
+
+section.header {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+section.header .anonima {
+    display: flex;
+    flex-direction: row;
+}
+
+section.header .anonima span {
+    flex: 1;
+}
+
+section.header .anonima,
+section.header .contact {
+    flex: 1;
+}
+
+section.header .contact  {
+    text-align: center;
+    
+}
+
+section.header .contact button  {
+    
+}
+
+section.main {
+    background: white;
+    border-radius: 30px 30px 0 0;
+    flex: 1;
+    padding: 40px;
+}
+
+section.main .social {
+    border-radius: 30px;
+    padding: 10px;
+    height: 40px;
+    background-color: pink;
+    margin-left: auto;
+    margin-top: 10px;
+    float: right;
+}
