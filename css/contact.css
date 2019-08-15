@@ -57,15 +57,17 @@ section.header .contact  {
     height: 40px;
     
 } */
-
-.contact1 {
-    font-size: 20px;
-}
 .contact{
     padding-bottom: 20px;
     color: gray;
     text-align: center;
 }
+
+.contact1 {
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+
 section.main {
     background: white;
     border-radius: 30px 30px 0 0;
