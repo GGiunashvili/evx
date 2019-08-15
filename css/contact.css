@@ -9,9 +9,14 @@ body {
 }
 
 section.header {
-    height: 200px;
+    height: 130px;
     display: flex;
     flex-direction: column;
+}
+
+.text{
+    padding: 60px;
+    width: 107%;
 }
 
 section.header .anonima {
@@ -42,12 +47,19 @@ section.header .contact  {
     
 }
 
-section.header .contact button  {
+/* section.header .contact button  {
     background-color: #dd97e8;
     height: 40px;
     
-}
+} */
 
+.contact1 {
+    font-size: 20px;
+}
+.contact{
+    padding-bottom: 20px;
+    color: gray;
+}
 section.main {
     background: white;
     border-radius: 30px 30px 0 0;
@@ -55,6 +67,12 @@ section.main {
     padding: 40px;
 }
 
+.pink{
+    background-color: #dd97e8;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+}
 section.main .social {
     border-radius: 30px;
     padding: 10px;

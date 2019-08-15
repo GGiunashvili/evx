@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Contact</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/contact.css">
 </head>
@@ -15,24 +27,38 @@
         <div class=anonima>
             <a class=logo><img class="logoA" src="image/logoT.png" alt="logo"></a>
             <span></span>
-            <a class=close><img class="logoB" src="image/buttonx.png" alt="close"></a>
+            <a href="index.html" class=close><img class="logoB" src="image/buttonx.png" alt="close"></a>
         </div>
-        <div class=contact>
-            <button>კონტაქტი</button>
-        </div>
+        
     </section>
 
     <section class=main>
-        <h1>მისამართი</h1>
-        <p>ქაქუცა ჩოლოყაშვილის გამზირი 3/5,</p>
-        <p>ილიას სახელმწიფო უნივერსიტეტი</p>
-        <p>infoanonimaedu@gmail.com</p>
-        <p>ტელ: 559412658</p>
+        <h1 class="contact1 contact">დაგვიკავშირდით:</h1>
+        <p class="contact"> infoanonimaedu@gmail.com</p>
+        <p class="contact">ტელ: 559412658</p>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <input type="email" class="form-control mail pink" id="inputEmail4" placeholder="ელ-ფოსტა">
+                </div>
+               
+            <div class="form-group">
+                <label for="inputsubject"></label>
+                <input type="text" class="form-control subject pink" id="inputsubject" placeholder="თემა">
+            </div>
+            <div class="form-group">
+                <label for="inputtext"></label>
+                <input type="text" class="form-control text pink" id="inputtext" placeholder="შეტყობინების ტექსტი">
+            </div>
+            <button type="submit" class="btn btn-primary submit pink">გაგზავნა</button>
+        </form>
 
-        <div class=social>
+
+
+        <!-- <div class=social>
             <a><img></a>
             <a><img></a>
-        </div>
+        </div> -->
     </section>
 
 </body>
