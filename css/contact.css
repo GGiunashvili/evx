@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-    background: #965bc4;
+    background: #a36adb;
     display: flex;
     flex-direction: column;
 }
@@ -16,19 +16,24 @@ section.header {
 
 .text{
     padding: 60px;
-    width: 107%;
+    
 }
-
+.button{
+    text-align: center;
+}
+.form-row{
+    flex-direction: column;
+}
 section.header .anonima {
     display: flex;
     flex-direction: row;
 }
 .logoA{
-    height: 40px;
+    height: 60px;
     margin: 20px;
 }
 .logoB{
-    height: 40px;
+    height: 30px;
     margin: 20px;
 }
 section.header .anonima span {
@@ -59,6 +64,7 @@ section.header .contact  {
 .contact{
     padding-bottom: 20px;
     color: gray;
+    text-align: center;
 }
 section.main {
     background: white;
@@ -72,8 +78,17 @@ section.main {
     color: #fff;
     border-radius: 20px;
     border: none;
+    text-align: center;
 }
-section.main .social {
+.submit{
+    background-color: #a36adb;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.pad{
+    padding: 30px;
+}
+/* section.main .social {
     border-radius: 30px;
     padding: 10px;
     height: 40px;
@@ -81,4 +96,8 @@ section.main .social {
     margin-left: auto;
     margin-top: 10px;
     float: right;
+} */
+
+::placeholder {
+color: white!important; 
 }
