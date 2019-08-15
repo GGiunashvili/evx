@@ -176,6 +176,9 @@
 
 a:hover{
 	color: #a36adb;
+	transition: 0.8s;
+	
+	
 }
 @media screen and (max-width: 992px){
 	.hed{
