@@ -113,12 +113,12 @@ section.main {
 .tako .social {
     display: none;
     position: absolute;
-    top: 40px;
-    left: 40px;
-    border: 1px solid silver;
+    bottom: 6px;
+    left: 44px;
+    
     width: 30px;
     height: 30px;
-    background: silver;
+    
 }
 
 .member {
@@ -127,6 +127,7 @@ section.main {
 
 .member:hover .tako .social {
     display: block;
+    z-index: 10;
 }
 
 .member:hover .tako::after {
@@ -136,8 +137,9 @@ section.main {
                     left: 0;
                     right: 0;
                     bottom: 0;
-                    background:pink;
+                    background: #dd97e8;
                     opacity: 0.5;
+                    
                 }
 .line1{
     line-height: 40px;
