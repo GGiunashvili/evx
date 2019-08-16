@@ -79,67 +79,22 @@ section.main {
     border: none;
     text-align: center;
 }
-.submit{
+/* .submit{
     background-color: #dd97e8;
     padding: 20px;
-}
+} */
 
-.members{
+/* .members{
     display: flex;
     justify-content: center;
     
-}
+} */
 
-.pad{
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-}
 
-.tako {
-    border-radius: 50%;
-    position: relative;
-    margin: 60px;
-    overflow: hidden;
-    border: 1px solid silver
-}
-
-.tako img {
-    height: 120px;
-    width: 120px;
-    
-}
-
-.tako .social {
-    display: none;
-    position: absolute;
-    top: 40px;
-    left: 40px;
-    border: 1px solid silver;
-    width: 30px;
-    height: 30px;
-    background: silver;
-}
-
-.member {
-    position: relative
-}
-
-.member:hover .tako .social {
-    display: block;
-}
-
-.member:hover .tako::after {
-                    content: ' ';
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    right: 0;
-                    bottom: 0;
-                    background:pink;
-                    opacity: 0.5;
-                }
 .line1{
     line-height: 40px;
 
+}
+.cycle {
+    height: 300px;
 }
