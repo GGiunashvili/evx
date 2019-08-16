@@ -101,10 +101,11 @@ section.main {
     align-items: center;
 }
 .button1{
-    margin-left: 110%;
+    /* margin-left: 110%; */
     background: #DD97E8;
-    padding: 8px;
+    padding: 20px;
     margin-top: 20px;
     color: white;
     border-radius: 20px;
+    margin-bottom: 70px;
 }
