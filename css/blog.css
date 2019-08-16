@@ -1,0 +1,110 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #a36adb;
+    display: flex;
+    flex-direction: column;
+}
+
+section.header {
+    height: 130px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.text{
+    padding: 60px;
+    
+}
+.button{
+    text-align: center;
+}
+.form-row{
+    flex-direction: column;
+}
+section.header .anonima {
+    display: flex;
+    flex-direction: row;
+}
+.logoA{
+    height: 60px;
+    margin: 20px;
+}
+.logoB{
+    height: 30px;
+    margin: 20px;
+}
+section.header .anonima span {
+    flex: 1;
+}
+
+section.header .anonima,
+section.header .contact {
+    flex: 1;
+}
+
+section.header .contact  {
+    text-align: center;
+    
+    
+    
+}
+
+.contact {
+    padding-bottom: 3px;
+    color: gray;
+    text-align: center;
+    line-height: 25px;
+    font-size: 13px;
+}
+
+
+.contact1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+section.main {
+    background: white;
+    border-radius: 30px 30px 0 0;
+    flex: 1;
+    padding: 40px;
+ 
+}
+
+.pink{
+    background-color: #adb5bd;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
+
+
+
+.line1{
+    line-height: 40px;
+
+}
+.cycle {
+    height: 150px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.blog{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.button1{
+    margin-left: 110%;
+    background: #DD97E8;
+    padding: 8px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 20px;
+}
