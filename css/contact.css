@@ -76,16 +76,15 @@ section.main {
 }
 
 .pink{
-    background-color: #dd97e8;
+    background-color: #adb5bd;
     color: #fff;
     border-radius: 20px;
     border: none;
     text-align: center;
 }
 .submit{
-    background-color: #a36adb;
-    margin-left: 25%;
-    margin-right: 25%;
+    background-color: #dd97e8;
+    padding: 20px;
 }
 .pad{
     padding: 30px;
