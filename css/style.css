@@ -196,3 +196,10 @@ a:hover{
 		width: 250px;
 	}
 }
+@media screen and (max-width: 320px){
+    .menu-li{
+	    margin-top: 75px;
+	}
+
+}
+
