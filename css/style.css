@@ -195,11 +195,10 @@ a:hover{
 	.boti{
 		width: 250px;
 	}
+	.menu-li{
+		margin-top: 70px;
 }
-@media screen and (max-width: 320px){
-    .menu-li{
-	    margin-top: 75px;
-	}
+	
+}
 
-}
 
