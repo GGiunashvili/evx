@@ -167,7 +167,8 @@
 }
 .deco{
 	text-decoration: none;
-	color: #000000;
+	    color: rgb(115, 114, 114);
+           font-family: "DejaVu Sans", sans-serif;
 }
 .deco2{
 	text-decoration: none;
