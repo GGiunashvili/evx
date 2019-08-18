@@ -150,7 +150,7 @@ strong {
     font-weight: bold;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 
     .tako {
         margin: 28px;
