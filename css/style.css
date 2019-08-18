@@ -47,6 +47,10 @@
 	
 }
 
+.fb-customerchat.hide {
+	display: none;
+}
+
 .menu{
 	z-index: 100;
 	    position: fixed;
