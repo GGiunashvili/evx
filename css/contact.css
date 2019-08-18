@@ -102,3 +102,6 @@ section.main {
 ::placeholder {
 color: white!important; 
 }
+strong {
+    font-weight: bold;
+}
