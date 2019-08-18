@@ -28,6 +28,8 @@
 }
 .isdiv{
 	text-align:center;
+        color: rgb(115, 114, 114);
+        font-family: "DejaVu Sans", sans-serif;
 }
 .header-ul{
 	display: flex;
