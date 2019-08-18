@@ -171,7 +171,8 @@
 }
 .deco{
 	text-decoration: none;
-	color: #000000;
+	    color: rgb(115, 114, 114);
+           font-family: "DejaVu Sans", sans-serif;
 }
 .deco2{
 	text-decoration: none;
@@ -199,4 +200,21 @@ a:hover{
 	.boti{
 		width: 250px;
 	}
+	.menu-li{
+		margin-top: 70px;
 }
+	
+}
+@media screen and (max-width: 320px){
+	.boti{
+		width: 200px;
+	}
+	.menu-ul{
+	margin-top: 40px;
+	}
+	.menu-li {
+         margin-top: 40px;
+}
+}
+
+
