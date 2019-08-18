@@ -48,8 +48,6 @@ section.header .contact {
 section.header .contact  {
     text-align: center;
     
-    
-    
 }
 
 .contact {
@@ -57,6 +55,7 @@ section.header .contact  {
     color: gray;
     text-align: center;
     line-height: 25px;
+    font-family: "BPG Nino Mtavruli", sans-serif;
 }
 
 
