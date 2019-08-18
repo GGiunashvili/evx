@@ -151,7 +151,7 @@
 }
 .panon{
 	font-size: 30px;
-	margin-bottom: 0;
+	margin-bottom: 15px;
 	font-family: "BPG Nino Mtavruli", sans-serif;
 
 }
@@ -161,6 +161,10 @@
 	color:grey;
 
 
+}
+.marg{
+	margin: 0 !important;
+	line-height: 20px;
 }
 .list{
 	list-style: none;
