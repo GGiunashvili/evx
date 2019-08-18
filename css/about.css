@@ -9,9 +9,9 @@ body {
 }
 
 section.header {
-    height: 130px;
-    /* display: flex;
-    flex-direction: column; */
+    min-height: 130px;
+    display: flex;
+    flex-direction: column;
 }
 
 .text{
@@ -144,4 +144,19 @@ section.main {
 .line1{
     line-height: 40px;
 
+}
+
+strong {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 400px) {
+
+    .tako {
+        margin: 28px;
+    }
+
+    .member{
+        font-size: 12px;
+    }
 }
