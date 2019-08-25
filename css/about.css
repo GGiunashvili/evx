@@ -41,6 +41,10 @@ section.header .anonima span {
     flex: 1;
 }
 
+.sect{
+   display: none;
+}
+
 section.header .anonima,
 section.header .contact {
     flex: 1;
