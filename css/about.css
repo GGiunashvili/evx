@@ -131,6 +131,9 @@ section.main {
     display: block;
     z-index: 10;
 }
+.sect{
+    display:none;
+}
 
 .member:hover .tako::after {
                     content: ' ';
