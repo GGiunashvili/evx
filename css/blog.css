@@ -15,6 +15,11 @@ section.header {
     flex-direction: column; */
 }
 
+button:focus {
+    outline-offset: 0px;
+    outline: none;
+}
+
 .text {
     padding: 60px;
 }
@@ -60,11 +65,11 @@ section.header .contact {
     color: gray;
     text-align: center;
     line-height: 25px;
-    font-size: 13px;
+    font-size: 18px;
 }
 
 .contact1 {
-    font-size: 20px;
+    font-size: 22px;
     padding-bottom: 20px;
 }
 

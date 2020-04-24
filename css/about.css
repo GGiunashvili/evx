@@ -61,11 +61,16 @@ section.header .contact {
     text-align: center;
     line-height: 25px;
     font-family: "BPG Nino Mtavruli", sans-serif;
+    font-size: 18px;
 }
 
 .contact1 {
-    font-size: 20px;
-    padding-bottom: 60px;
+    font-size: 25px;
+    padding-bottom: 0;
+}
+
+.text-line {
+    margin-top: 10px;
 }
 
 section.main {
@@ -147,6 +152,7 @@ section.main {
 
 .line1 {
     line-height: 40px;
+    font-size: 18px;
 }
 
 strong {
