@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -14,28 +15,33 @@ section.header {
     flex-direction: column; */
 }
 
-.text{
+.text {
     padding: 60px;
-    
 }
-.button{
+
+.button {
     text-align: center;
 }
-.form-row{
+
+.form-row {
     flex-direction: column;
 }
+
 section.header .anonima {
     display: flex;
     flex-direction: row;
 }
-.logoA{
+
+.logoA {
     height: 60px;
     margin: 20px;
 }
-.logoB{
-    height: 30px;
-    margin: 20px;
+
+.logoB {
+    height: 60px;
+    margin-top: 20px;
 }
+
 section.header .anonima span {
     flex: 1;
 }
@@ -45,11 +51,8 @@ section.header .contact {
     flex: 1;
 }
 
-section.header .contact  {
+section.header .contact {
     text-align: center;
-    
-    
-    
 }
 
 .contact {
@@ -59,7 +62,6 @@ section.header .contact  {
     line-height: 25px;
     font-size: 13px;
 }
-
 
 .contact1 {
     font-size: 20px;
@@ -71,10 +73,9 @@ section.main {
     border-radius: 30px 30px 0 0;
     flex: 1;
     padding: 40px;
- 
 }
 
-.pink{
+.pink {
     background-color: #adb5bd;
     color: #fff;
     border-radius: 20px;
@@ -82,25 +83,24 @@ section.main {
     text-align: center;
 }
 
-
-
-.line1{
+.line1 {
     line-height: 40px;
-
 }
+
 .cycle {
-    height: 150px;
+    height: 240px;
     border-radius: 30px;
     margin-bottom: 30px;
 }
 
-.blog{
+.blog {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-.button1{
+
+.button1 {
     /* margin-left: 110%; */
     background: #DD97E8;
     padding: 20px;
@@ -109,6 +109,7 @@ section.main {
     border-radius: 20px;
     margin-bottom: 70px;
 }
+
 strong {
     font-weight: bold;
 }

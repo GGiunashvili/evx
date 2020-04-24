@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -14,28 +15,39 @@ section.header {
     flex-direction: column;
 }
 
-.text{
+.text {
     padding: 60px;
-    
 }
-.button{
+
+.button {
     text-align: center;
 }
-.form-row{
-    flex-direction: column;
+
+.form-main {
+    display: flex;
+    justify-content: center;
 }
+
+.form-row {
+    flex-direction: column;
+    max-width: 500px;
+}
+
 section.header .anonima {
     display: flex;
     flex-direction: row;
 }
-.logoA{
+
+.logoA {
     height: 60px;
     margin: 20px;
 }
-.logoB{
-    height: 30px;
-    margin: 20px;
+
+.logoB {
+    margin-top: 20px;
+    height: 60px;
 }
+
 section.header .anonima span {
     flex: 1;
 }
@@ -45,19 +57,18 @@ section.header .contact {
     flex: 1;
 }
 
-section.header .contact  {
+section.header .contact {
     text-align: center;
-    
-    
-    
 }
+
 
 /* section.header .contact button  {
     background-color: #dd97e8;
     height: 40px;
     
 } */
-.contact{
+
+.contact {
     padding-bottom: 20px;
     color: gray;
     text-align: center;
@@ -75,20 +86,25 @@ section.main {
     padding: 40px;
 }
 
-.pink{
+.pink {
     background-color: #adb5bd;
     color: #fff;
     border-radius: 20px;
     border: none;
     text-align: center;
+    font-size: 22px;
 }
-.submit{
+
+.submit {
     background-color: #dd97e8;
     padding: 20px;
 }
-.pad{
+
+.pad {
     padding: 30px;
 }
+
+
 /* section.main .social {
     border-radius: 30px;
     padding: 10px;
@@ -100,8 +116,9 @@ section.main {
 } */
 
 ::placeholder {
-color: white!important; 
+    color: white!important;
 }
+
 strong {
     font-weight: bold;
 }
