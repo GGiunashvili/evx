@@ -169,6 +169,7 @@
 .marg {
     margin: 0 !important;
     line-height: 20px;
+    font-size: 18px;
 }
 
 .list {
