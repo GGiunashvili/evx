@@ -71,6 +71,7 @@
 
 .flex {
     display: flex;
+    align-items:cetner;
 }
 
 .menu-li {
